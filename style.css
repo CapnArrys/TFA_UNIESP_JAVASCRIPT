@@ -1,0 +1,52 @@
+body {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: url('https://images5.alphacoders.com/121/1217525.png') no-repeat;
+    background-size: cover;
+
+}
+
+.wrapper {
+    width: 27rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+    align-content: center;
+    background-color: rgba(0,0,0,.7);
+    backdrop-filter: blur(10px);
+    box-shadow: 0 0 10px (0, 0, 0, 2);
+    color: white;
+    padding: 30px 40px;
+    
+}
+
+.clock {
+    display: inline-flex;
+    flex-direction: column;
+    margin: 10px;
+    background-color: black;
+    height: 140px;
+    width: 140px;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+    align-content: center;
+    padding-top: 20px;
+    font-size: 35px;
+
+}
+
+label {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -25px;
+    
+}
